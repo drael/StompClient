@@ -13,5 +13,5 @@ Usage:
 ```go
 conn := StompClient.StompClient{}
 conn.Connect()
-conn.SendEvent(`{"foo": "bar", "Hello"}`)
+conn.SendEvent(`{"foo": "bar"}`, "Hello")
 ```
